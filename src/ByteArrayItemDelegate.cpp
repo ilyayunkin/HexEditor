@@ -36,7 +36,7 @@ QString ByteArrayItemDelegate::getAsciiRepresentation(const QByteArray &array) c
         str = array;
     }
 
-    for(QChar c : str){
+    for(QChar &c : str){
         const bool printAsIs = c.isLetterOrNumber() ||
                 c.isPunct();
 
