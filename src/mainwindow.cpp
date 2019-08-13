@@ -68,7 +68,7 @@ MainWindow::MainWindow(QWidget *parent)
         }
         {
             QMenu * settingsMenu = menuBar()->addMenu("Settings");
-            settingsMenu->addAction("Fonts", this, selectFont);
+            settingsMenu->addAction("Fonts", this, &MainWindow::selectFont);
         }
     }
 
