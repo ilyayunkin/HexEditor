@@ -61,10 +61,10 @@ MainWindow::MainWindow(QWidget *parent)
     {
         {
             QMenu * fileMenu = menuBar()->addMenu("File");
-            fileMenu->addAction("Open", this, MainWindow::read,  QKeySequence(tr("Ctrl+O")));
-            fileMenu->addAction("Diff", this, MainWindow::diff, QKeySequence(tr("Ctrl+D")));
-            fileMenu->addAction("Save", this, MainWindow::save, QKeySequence(tr("Ctrl+S")));
-            fileMenu->addAction("Save as...", this, MainWindow::saveAs);
+            fileMenu->addAction("Open", this, &MainWindow::read,  QKeySequence(tr("Ctrl+O")));
+            fileMenu->addAction("Diff", this, &MainWindow::diff, QKeySequence(tr("Ctrl+D")));
+            fileMenu->addAction("Save", this, &MainWindow::save, QKeySequence(tr("Ctrl+S")));
+            fileMenu->addAction("Save as...", this, &MainWindow::saveAs);
         }
         {
             QMenu * settingsMenu = menuBar()->addMenu("Settings");
