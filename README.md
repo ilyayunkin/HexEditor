@@ -5,12 +5,12 @@
 # HexEditor
 Hex view
 
-![](https://github.com/ilyayunkin/HexEditor/blob/master/img/screen1.jpg)
+![](img/screen1.jpg)
 
 Hex diff
 
-![](https://github.com/ilyayunkin/HexEditor/blob/master/img/screen2.jpg)
+![](img/screen2.jpg)
 
 Hex editing
 
-![](https://github.com/ilyayunkin/HexEditor/blob/master/img/screen3.jpg)
+![](img/screen3.jpg)
